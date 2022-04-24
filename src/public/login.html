@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Iniciar Sesión</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <article class="logo">
+        <img
+          src="css/img/LogoPrincipal.jpg"
+          alt="_Nombre de la Empresa"
+        />
+        <h3 class="title">
+          <a href="#">Génesis Bienes Raíces</a>
+        </h3>
+      </article>
+      <article class="help">
+        <h3>?</h3>
+      </article>
+    </header>
+    <main class="main">
+      <div class="overlay">
+        <article class="container">
+          <div class="forma">
+            <h2>Iniciar Sesión</h2>
+              <template class="template-error">
+                <div class="alert-message">
+                  <p class="message"></p>
+                </div>
+              </template>
+              <form action="" method="post" class="form">
+                <section class="error"></section>
+                <div class="row">
+                  <label class="form-label" for="usuario">Usuario</label>
+                  <input class="form-input-text" type="email" name="usuario" required/>
+                </div>
+                <div class="row">
+                  <label class="form-label" for="contraseña">Contraseña</label>
+                  <input class="form-input-text" type="password" name="contrasena" required />
+                </div>
+                <button class="form-input-btn">Ingresar</button>
+              </form>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/e1mais">GitHub e1mais</a>
+    </footer>
+    <!--<script src="./login.js"></script>-->>
+  </body>
+</html>
